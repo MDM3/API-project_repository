@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a28ff1593b6539f1bb3f1522b5960f43 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a28ff1593b6539f1bb3f1522b5960f43" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a28ff1593b6539f1bb3f1522b5960f43 = L.map(
+                "map_a28ff1593b6539f1bb3f1522b5960f43",
+                {
+                    center: [40.416775, -3.70379],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9242b2a8dfd5e86f5664be0b46bd258f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9242b2a8dfd5e86f5664be0b46bd258f.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var marker_7438cc6dca63f2d6949328bdbf57cad8 = L.marker(
+                [40.41195035200002, -3.67806112],
+                {}
+            ).addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+        var popup_85e79513e15cf525f6f5e824428f1761 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a12c6f8c6a94934c6e69d05db50c7c3 = $(`<div id="html_6a12c6f8c6a94934c6e69d05db50c7c3" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> MADRID, RETIRO<br><b>Indicativo:</b> 3195<br><b>Provincia:</b> MADRID<br><b>Altitud:</b> 667.0 m</div>`)[0];
+                popup_85e79513e15cf525f6f5e824428f1761.setContent(html_6a12c6f8c6a94934c6e69d05db50c7c3);
+            
+        
+
+        marker_7438cc6dca63f2d6949328bdbf57cad8.bindPopup(popup_85e79513e15cf525f6f5e824428f1761)
+        ;
+
+        
+    
+    
+            var marker_233e271cad1f6cfdc6b716fc01fdcc2b = L.marker(
+                [40.375554352999984, -3.786105280000015],
+                {}
+            ).addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+        var popup_e058690eeeb179c410aa878390621ad6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8391fc70e528ff329b152f45448e22b5 = $(`<div id="html_8391fc70e528ff329b152f45448e22b5" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> MADRID, CUATRO VIENTOS<br><b>Indicativo:</b> 3196<br><b>Provincia:</b> MADRID<br><b>Altitud:</b> 690.0 m</div>`)[0];
+                popup_e058690eeeb179c410aa878390621ad6.setContent(html_8391fc70e528ff329b152f45448e22b5);
+            
+        
+
+        marker_233e271cad1f6cfdc6b716fc01fdcc2b.bindPopup(popup_e058690eeeb179c410aa878390621ad6)
+        ;
+
+        
+    
+    
+            var marker_cd023096307e1960eed370898c6b439d = L.marker(
+                [40.46666717699998, -3.555558222],
+                {}
+            ).addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+        var popup_cce6f4d95ae468321f1669bf38172997 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_21df934f442b4e2d0e88d197263d8b1c = $(`<div id="html_21df934f442b4e2d0e88d197263d8b1c" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> MADRID, BARAJAS<br><b>Indicativo:</b> 3129<br><b>Provincia:</b> MADRID<br><b>Altitud:</b> 609.0 m</div>`)[0];
+                popup_cce6f4d95ae468321f1669bf38172997.setContent(html_21df934f442b4e2d0e88d197263d8b1c);
+            
+        
+
+        marker_cd023096307e1960eed370898c6b439d.bindPopup(popup_cce6f4d95ae468321f1669bf38172997)
+        ;
+
+        
+    
+    
+            var marker_9eb159b7680cd854935a9d03e39ad4ce = L.marker(
+                [40.552986, -3.709128],
+                {}
+            ).addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+        var popup_0610b43b60d9df0d8c3eb9bfa8e213ea = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a6670fb91176d9ce3456776fee7ee26c = $(`<div id="html_a6670fb91176d9ce3456776fee7ee26c" style="width: 100.0%; height: 100.0%;"><b>Nombre:</b> MADRID, EL GOLOSO<br><b>Indicativo:</b> 3126Y<br><b>Provincia:</b> MADRID<br><b>Altitud:</b> 650.0 m</div>`)[0];
+                popup_0610b43b60d9df0d8c3eb9bfa8e213ea.setContent(html_a6670fb91176d9ce3456776fee7ee26c);
+            
+        
+
+        marker_9eb159b7680cd854935a9d03e39ad4ce.bindPopup(popup_0610b43b60d9df0d8c3eb9bfa8e213ea)
+        ;
+
+        
+    
+    
+            var tile_layer_2de601f7aa5bf17619d6f329a319775f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2de601f7aa5bf17619d6f329a319775f.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var tile_layer_d1a376640320386a97064a867aee482a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e \u0026mdash; Map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_d1a376640320386a97064a867aee482a.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var tile_layer_db463f401aac9ba828e6267d8fb63eb5 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e \u0026mdash; Map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_db463f401aac9ba828e6267d8fb63eb5.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var tile_layer_51149f2fe0c3d13cf3f4e4e1448f1122 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_51149f2fe0c3d13cf3f4e4e1448f1122.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var tile_layer_69df72b981a366612ad709b1e1ec30e3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_69df72b981a366612ad709b1e1ec30e3.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var tile_layer_9f28e71943b1b0f64e8ac29bb0bda36e = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.esri.com/\"\u003eEsri\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9f28e71943b1b0f64e8ac29bb0bda36e.addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+        
+    
+            var layer_control_ddd6f142c4f620ddcd33e6ad905cc928_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_2de601f7aa5bf17619d6f329a319775f,
+                    "stamenterrain" : tile_layer_d1a376640320386a97064a867aee482a,
+                    "stamentoner" : tile_layer_db463f401aac9ba828e6267d8fb63eb5,
+                    "cartodbpositron" : tile_layer_51149f2fe0c3d13cf3f4e4e1448f1122,
+                    "cartodbdarkmatter" : tile_layer_69df72b981a366612ad709b1e1ec30e3,
+                    "Esri Satellite" : tile_layer_9f28e71943b1b0f64e8ac29bb0bda36e,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_ddd6f142c4f620ddcd33e6ad905cc928 = L.control.layers(
+                layer_control_ddd6f142c4f620ddcd33e6ad905cc928_layers.base_layers,
+                layer_control_ddd6f142c4f620ddcd33e6ad905cc928_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_a28ff1593b6539f1bb3f1522b5960f43);
+
+        
+</script>
+</html>
